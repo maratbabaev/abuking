@@ -851,7 +851,7 @@ header {
 	}
 	td {
 		padding: 12px;
-		border: 1px solid rgb(255, 255, 255);
+		border: 1px solid rgb(226, 210, 187);
 		text-align: left;
 		vertical-align: top;
 	}
@@ -861,12 +861,8 @@ header {
 	tr {
 		&:first-child {
 			td {
-				background: linear-gradient(
-					180deg,
-					rgb(219, 255, 0) 0%,
-					rgb(180, 197, 0) 100%
-				);
-				color: rgb(3, 10, 10);
+				background: rgba(44, 37, 113, 0.5019607843);
+				color: #fff;
 			}
 		}
 	}
